@@ -13,7 +13,7 @@ public class MainController {
   @GetMapping("/ping")
   public ResponseEntity<Map<String,String>> ping(){
     Map<String,String> result=new HashMap<>();
-    result.put("result","pong4");
+    result.put("result","pong5");
     return ResponseEntity.ok().body(result);
   }
 
